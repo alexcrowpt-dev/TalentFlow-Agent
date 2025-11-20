@@ -1,0 +1,33 @@
+# General
+.DS_Store
+.env
+.venv
+/venv
+__pycache__/
+*.pyc
+
+# Python
+pip-log.txt
+.tox/
+.coverage
+.mypy_cache/
+.pytest_cache/
+
+# Node/Next.js
+/node_modules
+.next/
+/out
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs and DB
+*.log
+*.sqlite3
+/db/data
+/data
+
+# Deployment
+/deployment/volumes
+/deployment/secrets
